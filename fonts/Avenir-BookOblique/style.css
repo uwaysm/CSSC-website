@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Book Oblique'), local('Avenir-Book-Oblique'),
+        url('Avenir-BookOblique.woff2') format('woff2'),
+        url('Avenir-BookOblique.woff') format('woff'),
+        url('Avenir-BookOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

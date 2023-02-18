@@ -1,12 +1,23 @@
+h1{
+  font-family: Avenir-Heavy;
+  letter-spacing: 0.1cm;
+}
+
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #553a46;
     position: relative;
+    width: 100%;
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
+  }
+
+  .topnav #hamburger{
+    font-size: 60px;
+
   }
   
   /* Style navigation menu links */
@@ -14,13 +25,13 @@
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     display: block;
   }
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: black;
+    background: none;
     display: block;
     position: absolute;
     right: 0;
@@ -28,17 +39,52 @@
   }
   
   /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #04AA6D;
+    background-color: #553a46;
     color: white;
   }
 
   .topnav #logo{
     width: 100px;
+    padding: 14px 16px;
+
   }
+
+#bk2{
+    filter:brightness(50%);
+}
+
+.bk2 {
+    margin: 3%;
+    position: relative;
+}
+
+.first-txt {
+    position: absolute;
+    top: 17px;
+    left: 50px;
+}
+
+.second-txt {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.img2{
+  width: 100%;
+  filter: brightness(40%);  
+  position: relative;
+}
+
+.txt1{
+  color: white;
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  text-align: LEFT;
+  padding-left: 20px;
+}

@@ -11,10 +11,23 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+          @font-face {
+            font-family: Avenir-Heavy;
+            src: url("fonts/Avenir-Heavy/Avenir-Heavy.ttf");
+          }
+
+          @font-face{
+            font-family: Avenir-Book;
+            src: url("fonts/Avenir-BookOblique/Avenir-BookOblique.ttf")
+          }
+          
+        </style>
     </head>
 
     <div class="topnav">
-        <a href="#home" class="active"><img src="images/logo.png" id = "logo"></a>
+        <a href="#home" class="active"><img src="images/logo2.png" id = "logo"></a>
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks">
             <a href="#about-us">About Us</a>
@@ -24,25 +37,25 @@
         </div>
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
+          <i class="fa fa-bars" id = "hamburger"></i>
         </a>
       </div>
 
    
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script>
-            function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-              x.style.display = "none";
-            } else {
-              x.style.display = "block";
-            }
-          }</script>
+      <div class = "img2_txt">
+        <h1 class = "txt1">WELCOME TO THE COMPUTER SCIENCE STUDENTS CLUB</h1>
+      <img src="images/background_1.jpeg" class = "img2">
+    </div>
     </body>
     
+    <script>
+      function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }</script>
 </html>
